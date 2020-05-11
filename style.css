@@ -1,3 +1,4 @@
+
 .hidden.menu {
     display: none;
   }
@@ -112,4 +113,116 @@
 
 a{
   font-family: 'Montserrat', sans-serif;
+}
+
+
+
+* { 
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  padding: 0;
+}
+
+.skills {
+   width: 500px;
+   margin: 60px auto;
+   color: #333;
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.bar{
+  background: rgb(118, 116, 121);
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(80, 92, 88);
+}
+
+.bar span{
+  height: 10px;
+  float: left;
+  background: #E7CFCD;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+.css {
+  width: 65%;
+  animation: css 2s;
+}
+.javascript {
+  width: 70%;
+  animation: css 2s;
+}
+.csharp {
+  width: 80%;
+  animation: css 2s;
+}
+.wordpress {
+  width: 80%;
+  animation: css 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes csharp {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width:80%;
+  }
+}
+
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+.projects {
+  background: #9F9AA4;
 }
