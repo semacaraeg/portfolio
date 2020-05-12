@@ -100,21 +100,18 @@
   background: whitesmoke no-repeat center fixed;
 }
 
-#avatar {
- margin-top: 100px;
-}
-#main-container{
-  background-color: #CEA0AE;
-}
 
-.sub-heading {
-  font-family: 'Montserrat', sans-serif;
+#main-container{
+  background-color: #E7CFCD;
 }
 
 a{
   font-family: 'Montserrat', sans-serif;
 }
 
+.about-me {
+  text-align: center;
+}
 
 
 * { 
@@ -154,22 +151,50 @@ a{
   animation: html 2s;
 }
 .css {
-  width: 65%;
-  animation: css 2s;
+  width: 75%;
+  animation: php 2s;
 }
-.javascript {
+.php {
   width: 70%;
   animation: css 2s;
 }
+.javascripti{
+  width: 80%;
+  animation: javascript 2s;
+}
 .csharp {
   width: 80%;
-  animation: css 2s;
+  animation: csharp 2s;
 }
 .wordpress {
   width: 80%;
-  animation: css 2s;
+  animation: wordpress 2s;
+}
+.asp {
+  width: 70%;
+  animation: asp 2s;
 }
 
+.react {
+  width: 60%;
+  animation: react 2s;
+}
+.azure {
+  width: 60%;
+  animation: azure 2s;
+}
+.sql {
+  width: 75%;
+  animation: sql 2s;
+}
+.pm {
+  width: 80%;
+  animation: pm 2s;
+}
+.im {
+  width: 90%;
+  animation: im 2s;
+}
 @keyframes html {
   0% {
     width: 0%;
@@ -183,16 +208,7 @@ a{
     width: 0%;
   }
   100%{
-    width: 65%;
-  }
-}
-
-@keyframes css {
-  0% {
-    width: 0%;
-  }
-  100%{
-    width: 65%;
+    width: 75%;
   }
 }
 
@@ -201,7 +217,7 @@ a{
     width: 0%;
   }
   100%{
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -210,7 +226,7 @@ a{
     width: 0%;
   }
   100%{
-    width:80%;
+    width: 80%;
   }
 }
 
@@ -219,10 +235,125 @@ a{
     width: 0%;
   }
   100%{
+    width:80%;
+  }
+}
+
+@keyframes php {
+  0% {
+    width: 0%;
+  }
+  100%{
     width: 80%;
   }
 }
 
+@keyframes asp {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+@keyframes azure {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@keyframes pm {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes im {
+  0% {
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+
+
+
 .projects {
   background: #9F9AA4;
+}
+.projects-img {
+  max-height: 230px;
+}
+
+.card {
+  min-height: 300px !important;
+}
+
+
+i.fas {
+  font-size: 80px;
+  text-align: center;
+  color: #CD99AC;
+}
+
+.section-header {
+  color: #CD99AC;
+  text-align: center;
+  font-size: 36px;
+}
+
+.sub-header {
+  color: rgb(118, 116, 121);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-header {
+  color: white;
+  font-size: 20px;
+}
+
+.tech-stack, .project-details {
+  color: white;
+  font-size: 14px;
+}
+
+
+.extra {
+  margin-top: 15px;
+}
+
+.project-btn {
+  color: #CD99AC !important;
+}
+
+.section-header-project {
+  font-size: 36px;
+  color: rgb(118, 116, 121);
+  margin-bottom: 60px;
 }

@@ -19,5 +19,11 @@ $(document)
         .sidebar('attach events', '.toc.item')
       ;
 
+      $('.special.cards .image')
+        .dimmer({
+            on: 'hover'
+         });
+
     })
   ;
+

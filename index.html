@@ -22,75 +22,109 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://use.fontawesome.com/51b98361e0.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1146a36397.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
   </head>
   <body>
     <!-- Following Menu -->
     <div class="ui large top fixed hidden menu">
-      <div class="ui container">
-        <img src="/images/sarah-logo-writing.png" id="sarah-logo" />
-        <a class="active item">About</a>
-        <a class="item">Skills</a>
-        <a class="item">Projects</a>
-        <a class="item">Contact</a>
-        <a class="item">Resume</a>
+      <div class="ui container" style="background: #e7cfcd; width: 100vw;">
+        <div
+          class="ui large secondary menu"
+          style="text-align: center; margin-left: 20px;"
+        >
+          <img src="/images/sarah-logo-writing.png" id="sarah-logo" />
+          <a class="active item">About</a>
+          <a class="item">Work</a>
+          <a class="item">Resume</a>
+        </div>
       </div>
     </div>
 
-    <!-- Sidebar Menu -->
-    <div class="ui vertical sidebar menu">
-      <a class="active item">About</a>
-      <a class="item">Skills</a>
-      <a class="item">Projects</a>
-      <a class="item">Contact</a>
-      <a class="item">Resume</a>
-    </div>
-
     <!-- Page Contents -->
-    <div class="pusher">
+    <div class="pusher" style="margin: auto; text-align: center;">
       <div
         class="ui vertical masthead center aligned segment"
         id="main-container"
       >
-        <div class="ui container" id="nav-head">
-          <div class="ui large secondary pointing menu">
-            <a class="toc item">
-              <i class="sidebar icon"></i>
-            </a>
+        <!--div class="ui container " id="nav-head" >
+          <div class="ui large secondary menu">
             <a class="item">About</a>
-            <a class="item">Skills</a>
-            <a class="item">Projects</a>
-            <a class="item">Contact</a>
+            <a class="item">Work</a>
             <a class="item">Resume</a>
           </div>
-        </div>
+        </div-->
 
         <div>
           <img src="/images/sarah-logo-writing.png" id="sarah-logo-hero" />
-          <h3 class="sub-heading">FRONT-END DEVELOPER. MENTOR. VOLUNTEER</h3>
+          <h3 class="sub-header">FRONT-END DEVELOPER. MENTOR. VOLUNTEER</h3>
         </div>
-        <button class="large ui inverted basic button">HIRE ME</button>
       </div>
 
       <!--ABOUT ME-->
       <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
-          <div class="row">
-            <div class="three wide left floated column">
+          <div class="row centered">
+            <div class="eight wide column">
               <img
                 src="images/sashy.png"
                 class="ui small centered circular image"
                 id="avatar"
               />
+              <h1 class="section-header">Hi.</h1>
+              <p class="about-me">
+                I'm a front-end developer based in Seattle, USA. I enjoy making
+                things that make a difference. I have a passion for web design
+                and love to create for web and mobile devices. I am also
+                passionate about mentoring and empowering women to achieve more.
+              </p>
             </div>
-            <div class="twelve wide column">
-              <h3 class="ui header">meet sarah</h3>
+          </div>
+        </div>
+      </div>
+
+      <!--What I can do-->
+      <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container centered">
+          <h1 class="section-header">What I can do.</h1>
+          <div class="row centered">
+            <div class="two wide column">
+              <i class="fas fa-palette"></i>
+            </div>
+            <div class="eight wide column">
+              <h3 class="sub-header">Design what you want.</h3>
               <p>
-                Sarah is a freelance front-end developer who enjoys making
-                things that make a difference. She has the passion for
-                continuous learning.......
+                I like to keep it simple. My goals are to focus on typography,
+                content and conveying the message that you want to send.
+              </p>
+            </div>
+          </div>
+          <div class="row centered">
+            <div class="eight wide column">
+              <h3 class="sub-header">Develop what you need.</h3>
+              <p>
+                I'm a developer, so I know how to create your website to run
+                across devices using the latest technologies available.
+              </p>
+            </div>
+            <div class="two wide column">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+
+          <div class="row centered">
+            <div class="two wide column">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <div class="six wide column">
+              <h3 class="sub-header">Empower you.</h3>
+              <p>
+                I am open for mentorship. Just send a message and I'd be happy
+                to help.
               </p>
             </div>
           </div>
@@ -98,77 +132,273 @@
       </div>
 
       <!--MY SKILLS-->
-      <div class="ui vertical stripe segment" style="background: #9f9aa4;">
-        <div class="ui container">
-          <h3 class="ui header">skills</h3>
-          <div class="ui grid container skills">
-            <div class="eight wide column">
+      <div class="ui vertical stripe segment">
+        <div class="ui container centered">
+          <h1 class="section-header">What I'm good at.</h1>
+          <div class="ui grid container skills centered">
+            <div class="five wide column">
               <li>
-                <h4>HTML5</h4>
+                <h4>HTML/HTML5</h4>
                 <span class="bar"><span class="html"></span></span>
               </li>
               <li>
-                <h4>CSS3</h4>
-                <span class="bar"><span class="css"></span></span>
-              </li>
-              <li>
                 <h4>JavaScript</h4>
-                <span class="bar"><span class="javascript"></span></span>
+                <span class="bar"><span class="javascripti"></span></span>
               </li>
               <li>
                 <h4>C#</h4>
                 <span class="bar"><span class="csharp"></span></span>
               </li>
               <li>
-                <h4>WordPress</h4>
-                <span class="bar"><span class="wordpress"></span></span>
+                <h4>PHP</h4>
+                <span class="bar"><span class="php"></span></span>
+              </li>
+              <li>
+                <h4>SQL</h4>
+                <span class="bar"><span class="sql"></span></span>
+              </li>
+              <li>
+                <h4>Incident Management</h4>
+                <span class="bar"><span class="im"></span></span>
               </li>
             </div>
-            <div class="eight wide column">
+            <div class="five wide column">
               <li>
-                <h4>CSS3</h4>
+                <h4>CSS/CSS3</h4>
                 <span class="bar"><span class="css"></span></span>
-              </li>
-              <li>
-                <h4>CSS3</h4>
-                <span class="bar"><span class="css"></span></span>
-              </li>
-              <li>
-                <h4>JavaScript</h4>
-                <span class="bar"><span class="javascript"></span></span>
-              </li>
-              <li>
-                <h4>C#</h4>
-                <span class="bar"><span class="csharp"></span></span>
               </li>
               <li>
                 <h4>WordPress</h4>
                 <span class="bar"><span class="wordpress"></span></span>
+              </li>
+              <li>
+                <h4>ASP.Net</h4>
+                <span class="bar"><span class="asp"></span></span>
+              </li>
+              <li>
+                <h4>React</h4>
+                <span class="bar"><span class="react"></span></span>
+              </li>
+              <li>
+                <h4>Azure</h4>
+                <span class="bar"><span class="azure"></span></span>
+              </li>
+              <li>
+                <h4>Project Management</h4>
+                <span class="bar"><span class="pm"></span></span>
               </li>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="ui vertical stripe segment">
-        <div class="ui container">
-          <h3 class="ui header">projects</h3>
-
+      <div class="ui vertical stripe segment" id="work"  style="background:#BAC3C2;">
+        <h1 class="section-header-project">Some of my work.</h1>
+        <div class="ui container centered">
           <div class="ui three column grid">
             <div class="column">
-              <div class="ui segment">
-                <img />
+              <div class="ui special cards">
+                <div class="card">
+                  <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                      <div class="content">
+                        <div class="center">
+                          <h4 class="project-header">MSTA-Connect</h4>
+                          <div class="extra content">
+                            <span class="tech-stack"
+                              >C#, ASP.Net MVC 5, HTML5/CSS3, Entity Framework,
+                              SQL, Azure
+                            </span>
+                          </div>
+                          <div class="extra content">
+                            <label class="project-details">
+                              Contributions: Lead developer for the project.
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="/images/msta.png" class="projects-img" />
+                  </div>
+                  <div class="content">
+                    <div class="ui basic button">GitHub</div>
+                    <a
+                      class="ui basic button project-btn"
+                      href="https://mstaconnect.azurewebsites.net/"
+                    >
+                      Go to Website
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
+
             <div class="column">
-              <div class="ui segment">
-                <img />
+                <div class="ui special cards">
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <h4 class="project-header">GOBii</h4>
+                            <div class="extra content">
+                              <span class="tech-stack"
+                                >WordPress, PHP, HTML5/CSS3
+                              </span>
+                            </div>
+                            <div class="extra content">
+                              <label class="project-details">
+                                Contributions: Designed and developed the website
+                            from ground-up. Participated in stakeholders meeting
+                            from ideation to deployment.
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img src="/images/gobii.png" class="projects-img" />
+                    </div>
+                    <div class="content">
+                      <div class="ui basic button">GitHub</div>
+                      <a
+                        class="ui basic button project-btn"
+                        href="https://gobiiproject.org/"
+                      >
+                        Go to Website
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="column">
-              <div class="ui segment">
-                <img />
+
+              <div class="column">
+                <div class="ui special cards">
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <h4 class="project-header">Portfolio</h4>
+                            <div class="extra content">
+                              <span class="tech-stack"
+                                >HTML5/CSS3, JavaScript, Semantic UI
+                              </span>
+                            </div>
+                            <div class="extra content">
+                              <label class="project-details">
+                                Contributions: Designed and developed the website
+                            from ground-up. 
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img src="/images/gobii.png" class="projects-img" />
+                    </div>
+                    <div class="content">
+                      <div class="ui basic button">GitHub</div>
+                      <a
+                        class="ui basic button project-btn"
+                        href="https://gobiiproject.org/"
+                      >
+                        Go to Website
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <div class="column">
+                <div class="ui special cards">
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <h4 class="project-header">MilSpouse InfoHub</h4>
+                            <div class="extra content">
+                              <span class="tech-stack"
+                                >HTML5/CSS3, JavaScript, Bootstrap
+                              </span>
+                            </div>
+                            <div class="extra content">
+                              <label class="project-details">
+                                Contributions: Ideation and design. 2nd place at MilSpouse Coders Hackathon. Team of 5. 
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img src="/images/gobii.png" class="projects-img" />
+                    </div>
+                    <div class="content">
+                      <a class="ui basic button" href="https://github.com/semacaraeg/milspouse-infohub/">GitHub</a>
+                      <a
+                        class="ui basic button project-btn"
+                        href="https://semacaraeg.github.io/milspouse-infohub/"
+                      >
+                        Go to Website
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="ui special cards">
+                  <div class="card">
+                    <div class="blurring dimmable image">
+                      <div class="ui dimmer">
+                        <div class="content">
+                          <div class="center">
+                            <h4 class="project-header">Deano's Pizza LA</h4>
+                            <div class="extra content">
+                              <span class="tech-stack"
+                                >HTML5/CSS3, HTML/CSS, JavaScript, Bootstrap
+                              </span>
+                            </div>
+                            <div class="extra content">
+                              <label class="project-details">
+                                Contributions: Designed and developed the website
+                            from ground-up. 
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img src="/images/deanos.png" class="projects-img" />
+                    </div>
+                    <div class="content">
+                      <div class="ui basic button">GitHub</div>
+                      <a
+                        class="ui basic button project-btn"
+                        href="http://deanospizzala.com/"
+                      >
+                        Go to Website
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+          
+
+
+          </div>
+        </div>
+      </div>
+
+      <!--Contact-->
+      <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="sixteen wide column">
+              <h1 class="section-header">I can help.</h1>
+              <p>
+                I am currently available for freelance work.
+              </p>
             </div>
           </div>
         </div>
