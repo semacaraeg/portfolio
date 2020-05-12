@@ -301,9 +301,6 @@ a{
   }
 }
 
-
-
-
 .projects {
   background: #9F9AA4;
 }
@@ -314,7 +311,6 @@ a{
 .card {
   min-height: 300px !important;
 }
-
 
 i.fas {
   font-size: 80px;
