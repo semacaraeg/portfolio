@@ -152,11 +152,11 @@ a{
 }
 .css {
   width: 75%;
-  animation: php 2s;
+  animation: css 2s;
 }
 .php {
   width: 70%;
-  animation: css 2s;
+  animation: php 2s;
 }
 .javascripti{
   width: 80%;
