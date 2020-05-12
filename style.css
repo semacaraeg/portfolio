@@ -353,3 +353,16 @@ i.fas {
   color: rgb(118, 116, 121);
   margin-bottom: 60px;
 }
+
+.sub-detail {
+  font-size: 20px;
+  color: #D4AAB8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.hire-btn 
+{
+ margin-top: 20px !important;
+}
