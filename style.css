@@ -181,7 +181,7 @@ a{
 }
 .azure {
   width: 60%;
-  animation: azure 2s;
+  animation: azures 2s;
 }
 .sql {
   width: 75%;
@@ -360,9 +360,21 @@ i.fas {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .hire-btn 
 {
  margin-top: 20px !important;
 }
+
+.footer-links {
+color:  rgb(118, 116, 121);
+font-weight: bolder;
+}
+.footer-links:hover {
+  color:  #D4AAB8;
+  font-weight: bolder;
+  }
+
+  .profile-icons {
+    color: #CD99AC;
+    font-size: 40px;
+  }

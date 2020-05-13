@@ -46,14 +46,33 @@ $(document)
 
     // let root = document.querySelector("#projects-root");
 
-        // let skills = document.querySelector("#skills-section").onmouseover = 
-         //   function(){
-          //      this.a
-           // };
+        let projects = document.querySelector("#work");
+        projects.addEventListener('mouseenter',  
+            function(){
+                $('.special.cards .card')
+                .transition({
+                    animation : 'jiggle',
+                    duration  : 600,
+                    interval  : 100
+               })
+               ;
+        
+            });
+
+            let skills = document.querySelector("#skills-section");
+        skills.addEventListener('mouseenter',  
+            function(){
+                $('li .bar')
+                .transition({
+                    animation : 'html 2s',
+               })
+               ;
+        
+            });
          
 
 
-
+//closing tag for document.ready
     })
   ;
 
