@@ -179,7 +179,7 @@ a{
   width: 60%;
   animation: react 2s;
 }
-.azure {
+.azures {
   width: 60%;
   animation: azures 2s;
 }
@@ -274,7 +274,7 @@ a{
   }
 }
 
-@keyframes azure {
+@keyframes azures {
   0% {
     width: 0%;
   }

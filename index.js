@@ -44,8 +44,6 @@ $(document)
     //     }
     // ];
 
-    // let root = document.querySelector("#projects-root");
-
         let projects = document.querySelector("#work");
         projects.addEventListener('mouseenter',  
             function(){
