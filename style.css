@@ -137,7 +137,7 @@ a{
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgb(80, 92, 88);
+  box-shadow: 0 0 5px rgb(80, 92, 88);
 }
 
 .bar span{
@@ -151,7 +151,7 @@ a{
   animation: html 2s;
 }
 .css {
-  width: 75%;
+  width: 90%;
   animation: css 2s;
 }
 .php {
@@ -208,7 +208,7 @@ a{
     width: 0%;
   }
   100%{
-    width: 75%;
+    width: 90%;
   }
 }
 
